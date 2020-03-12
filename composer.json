@@ -1,0 +1,14 @@
+{
+    "name": "amirmeshkin/crossfit",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "sergeytsalkov/meekrodb": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "Amir Meshkin",
+            "email": "amir.meshkin@gmail.com"
+        }
+    ]
+}

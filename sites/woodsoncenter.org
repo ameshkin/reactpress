@@ -1,0 +1,809 @@
+<!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend/module-header-large.php -->
+<!-- Test -->
+
+<!DOCTYPE html>
+<!--[if IE 9]><html  lang="en-US" prefix="og: http://ogp.me/ns#" class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="en-US" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+	<head>
+		<meta name="page_id" content="page.php ---- 4183">
+		<!-- Domains to Prefetch - Modify depending on needs -->
+		<link href="//www.google-analytics.com" rel="dns-prefetch">
+		<!-- <link rel="stylesheet" href="http://tawian.io/text-spinners/spinners.css"> -->
+
+		<link href="//use.typekit.net" rel="dns-prefetch">
+		<script src="https://use.typekit.net/ocm0whx.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="_5ML_qHWkt_VfdpInAfPaJ3piGODQAJDpkvRwyHotM0" />
+
+		<!-- Site Title -->
+		<title id="slug" data-slug="home-new">The Woodson Center</title>
+
+		<!-- Google Analytics Account -->
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102236433-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+		<script src="https://use.fontawesome.com/315953a189.js"></script>
+
+
+		
+<!-- This site is optimized with the Yoast SEO plugin v4.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="The Woodson Center empowers leaders with principles, access to funding, leadership development training and technical assistance to uplift neighborhoods. Founded by Robert Woodson."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://woodsoncenter.org/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="The Woodson Center" />
+<meta property="og:description" content="The Woodson Center empowers leaders with principles, access to funding, leadership development training and technical assistance to uplift neighborhoods. Founded by Robert Woodson." />
+<meta property="og:url" content="https://woodsoncenter.org/" />
+<meta property="og:site_name" content="The Woodson Center" />
+<meta property="og:image" content="https://woodsoncenter.org/wp-content/uploads/2020/03/1776-2.png" />
+<meta property="og:image:width" content="500" />
+<meta property="og:image:height" content="319" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="The Woodson Center empowers leaders with principles, access to funding, leadership development training and technical assistance to uplift neighborhoods. Founded by Robert Woodson." />
+<meta name="twitter:title" content="The Woodson Center" />
+<meta name="twitter:image" content="https://woodsoncenter.org/wp-content/uploads/2020/03/1776-2.png" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/woodsoncenter.org\/","name":"The Woodson Center","alternateName":"Robert Woodson Center","potentialAction":{"@type":"SearchAction","target":"https:\/\/woodsoncenter.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/woodsoncenter.org\/","sameAs":[],"@id":"#organization","name":"The Woodson Center","logo":"http:\/\/woodsoncenter.org\/wp-content\/uploads\/2017\/04\/logo@3x.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The Woodson Center &raquo; Feed" href="https://woodsoncenter.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Woodson Center &raquo; Comments Feed" href="https://woodsoncenter.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/woodsoncenter.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://woodsoncenter.org/wp/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://woodsoncenter.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='app-css-css'  href='https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/css/app.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/css/responsive.css?ver=1' type='text/css' media='all' />
+<script type='text/javascript' src='https://woodsoncenter.org/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://woodsoncenter.org/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var globals = {"urls":{"ajax":"https:\/\/woodsoncenter.org\/wp\/wp-admin\/admin-ajax.php","theme":"https:\/\/woodsoncenter.org\/wp-content\/themes\/CNE-theme"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/js/app.js?ver=1'></script>
+<script type='text/javascript' src='https://woodsoncenter.org/wp-content/plugins/home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/ajax-javascript.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='https://woodsoncenter.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://woodsoncenter.org/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://woodsoncenter.org/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='https://woodsoncenter.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://woodsoncenter.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwoodsoncenter.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://woodsoncenter.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwoodsoncenter.org%2F&#038;format=xml" />
+<link rel="icon" href="https://woodsoncenter.org/wp-content/uploads/2016/10/cropped-CNE-Favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://woodsoncenter.org/wp-content/uploads/2016/10/cropped-CNE-Favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://woodsoncenter.org/wp-content/uploads/2016/10/cropped-CNE-Favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://woodsoncenter.org/wp-content/uploads/2016/10/cropped-CNE-Favicon-270x270.png" />
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.js"></script>
+<script>
+	// jQuery(window).load(function () {
+	// 	jQuery(".page-id-4100 .featured_image_container").on('click', function(){
+    //  		window.location = "/2020/02/13/whites-worst-blacks-best-1619-project-ny-times-1776-facts/";
+	// 	});
+	// 	jQuery(".page-id-4100 .featured_image_container").css("cursor", "pointer");
+	// 	jQuery(".page-id-4100 .featured_image_container").css("z-index", "9999");
+	// });
+
+    jQuery(document).ready(function($){
+
+      let image_cnt = $(".featured_image_container");
+
+      // image_cnt.on('click', function(){
+      //   window.location = "/2020/02/13/whites-worst-blacks-best-1619-project-ny-times-1776-facts/";
+      // });
+      // image_cnt.css("cursor", "pointer");
+      // image_cnt.css("z-index", "9999");
+
+
+      // new home page
+
+      if ($("body").hasClass("page-id-4183"))
+      {
+
+        //$(".featured_image_container").remove();
+
+        $(".featured_image_container .featured_image").remove();
+        image_cnt.addClass("home_callout");
+
+        // <h4>1776 donations can be made here!</h4>
+        // $(".featured_image_container").html('<img src="http://woodsoncenter.org/wp-content/uploads/2020/02/1776-callout2.png" class="home_callout_img" />');
+        image_cnt.html('<div class="callout-wrapper"><img src="https://woodsoncenter.org/wp-content/uploads/2020/03/1776-2.png" class="home_callout_img" alt="1776 Unites" />' +
+          '<h4><a href="/donation-page/">1776 donations can be made by clicking here!</a></h4>' +
+          '<h4><a href="https://1776unites.com/" class="external-1776" target="_blank">Or by going to 1776unites.com</a></h4></div>');
+
+
+
+        $(".page-id-4183 .featured_image_container img").on('click', function(){
+          window.location = "http://1776unites.com";
+        });
+      } else {
+        // Do something if class does not exist
+      }
+
+
+
+    });
+
+</script>
+
+        <style>
+            .home_callout {
+
+                position:relative;
+
+            }
+
+            .callout-wrapper {
+                position:absolute;
+                top: 100px;
+                right:0;
+
+            }
+
+            .callout-wrapper h4 {
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 6px 0 0 0;
+            }
+
+            .callout-wrapper a {
+                color: #36486B;
+            }
+
+
+            .callout-wrapper a:hover {
+                color: #781023;
+            }
+
+
+            .featured_image_container {
+                cursor: pointer;
+            }
+
+
+            @media (max-width: 576px) {
+                .callout-wrapper {
+                    top: 0px;
+                }
+            }
+
+
+            @media (max-width: 768px) {
+                /*.home_callout_img {*/
+                /*    top: 0px;*/
+                /*}*/
+            }
+
+
+            @media (max-width: 992px) {
+
+            }
+
+
+            @media (max-width: 1200px) {
+
+
+            }
+
+
+
+        </style>
+
+	</head>
+	<body class="home page-template-default page page-id-4183">
+<div class="hero">
+	<div class="content-row row">
+
+		<div class="header-bar hide-for-medium show-for-large-up">
+			<div class="row">
+				<!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend//partials/_navbar.php --><div class="search_bar" style="display: none;">
+	<div class="row">
+		<form action="/search" class="search_form columns small-11 medium-6 medium-offset-3" method="GET">
+			<input name="search_term" type="text" placeholder="Search...">
+		</form>
+		<span class="close_button columns small-1 end"><i class="fa fa-times" aria-hidden="true"></i></span>
+	</div>
+</div>
+
+<a id="logo" href="/" class="logo columns small-12 medium-3"><img src="https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/img/logo@3x.png" alt=""></a>
+<div class="nav columns medium-7">
+
+
+
+
+<div class="eyebrow-nav row">
+<a href="/events" ID="events" class="columns medium-1 medium-offset-6">Events</a> 
+        <a href="/join-email-list" ID="email" class="columns medium-1">Email Signup&nbsp;&nbsp;</a>
+        <a href="http://woodsoncenter.org/donation-page/" ID="blog" class="columns medium-1">&nbsp;&nbsp;Donate</a>
+		<a href="/" ID="search_button" class="fa fa-search columns medium-1"></a>
+	
+	</div>
+
+	<!-- 
+		<nav class="row">
+			<ul>
+					
+						<li class="item columns end">
+							<a href="https://woodsoncenter.org/about-us/"><span id="about-us">About Us</span></a>
+							<div class="dropdown row">
+								<div class="columns medium-12 container">
+									<div id="triangle-up"></div>
+									<a href="https://woodsoncenter.org/about-us/" class="primary" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/partnersheader-150x150.png');"><span>About Us <i class="icon ion-arrow-right-b" aria-hidden="true"></i></span></a>
+																			<div><a href="https://woodsoncenter.org/about-us/history/">History <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/about-us/our-team/">Our Team <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/about-us/our-board-of-directors/">Our Board of Directors <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/about-us/faq/">FAQ <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/about-us/careers/">Careers <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																	</div>
+							</div>
+						</li>
+						
+						<li class="item columns end">
+							<a href="https://woodsoncenter.org/how-we-help/"><span id="how-we-help">How We Help</span></a>
+							<div class="dropdown row">
+								<div class="columns medium-12 container">
+									<div id="triangle-up"></div>
+									<a href="https://woodsoncenter.org/how-we-help/" class="primary" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/WhoWeHelp-Header-2-150x150.png');"><span>How We Help <i class="icon ion-arrow-right-b" aria-hidden="true"></i></span></a>
+																			<div><a href="https://woodsoncenter.org/how-we-help/who-we-help/">Who We Help <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/how-we-help/programs/">Programs <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/our-impact/">Our Proven Impact <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																	</div>
+							</div>
+						</li>
+						
+						<li class="item columns end">
+							<a href="https://woodsoncenter.org/get-involved/"><span id="get-involved">Get Involved</span></a>
+							<div class="dropdown row">
+								<div class="columns medium-12 container">
+									<div id="triangle-up"></div>
+									<a href="https://woodsoncenter.org/get-involved/" class="primary" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/GetInvolved-Header2-150x150.png');"><span>Get Involved <i class="icon ion-arrow-right-b" aria-hidden="true"></i></span></a>
+																			<div><a href="https://woodsoncenter.org/get-involved/members/">Members <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/get-involved/donors/">Donors <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/get-involved/partners/">Partners <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/get-involved/volunteers/">Volunteers <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/get-involved/share-your-story/">Share Your Story <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/join-email-list/">Join Our Email List <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/donate/">Donate <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																	</div>
+							</div>
+						</li>
+						
+						<li class="item columns end">
+							<a href="https://woodsoncenter.org/media-center/"><span id="media-center">Media Center</span></a>
+							<div class="dropdown row">
+								<div class="columns medium-12 container">
+									<div id="triangle-up"></div>
+									<a href="https://woodsoncenter.org/media-center/" class="primary" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/SmHeader_MediaCenter2-150x150.png');"><span>Media Center <i class="icon ion-arrow-right-b" aria-hidden="true"></i></span></a>
+																			<div><a href="https://woodsoncenter.org/media-center/comeback-series/">Comeback Series <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/media-center/press-releases/">Press Releases <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/media-center/blog/">Blog <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/media-center/publications/">Publications <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																			<div><a href="https://woodsoncenter.org/videos/">Videos <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+																	</div>
+							</div>
+						</li>
+										<li class="item columns end">
+						<a href="https://woodsoncenter.org/contact/">
+							<span id="contact">
+								Contact							</span>
+						</a>
+					</li>
+							</ul>
+		</nav>
+-->
+	<nav class="row">
+		<ul>
+			<li class="item columns">
+				<a href="/about-us" class="">About Us</a>
+				<div class="dropdown row">
+					<div class="columns medium-12 container">
+						<div id="triangle-up"></div>
+						<a href="/about-us" class="primary" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/partnersheader-150x150.png');"><span>About Us <i class="icon ion-arrow-right-b" aria-hidden="true"></i></span></a>
+                                          
+						<a href="/history">History <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/our-team">Our Team <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+                                                <a href="/about-us/our-board-of-directors/">Our Board of Directors <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/faq">FAQ <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</li>
+
+			<li class="item columns">
+				<a href="/how-we-help" class="">How We Help</a>
+				<div class="dropdown row">
+					<div class="columns medium-12 container">
+						<div id="triangle-up"></div>
+						<a href="/how-we-help" class="primary" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/WhoWeHelp-Header-2-150x150.png');"><span>How We Help <i class="icon ion-arrow-right-b" aria-hidden="true"></i></span></a>
+						<a href="/who-we-help">Who We Help <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/programs">Programs <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/our-impact">Our Impact <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</li>
+
+			<li class="item columns">
+				<a href="/get-involved" class="">Get Involved</a>
+				<div class="dropdown row">
+					<div class="columns medium-12 container">
+						<div id="triangle-up"></div>
+						<a href="/get-involved" class="primary" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/GetInvolved-Header2-150x150.png');"><span>Get Involved <i class="icon ion-arrow-right-b" aria-hidden="true"></i></span></a>
+						<a href="/members">Members <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/donors">Donors <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/partners">Partners <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/volunteers">Volunteers <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/share-your-story">Share Your Story <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</li>
+			
+			<li class="item columns">
+				<a href="/media-center" class="">Media Center</a>
+				<div class="dropdown row">
+					<div class="columns medium-12 container">
+						<div id="triangle-up"></div>
+						<a href="/media-center" class="primary" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/SmHeader_MediaCenter2-150x150.png');"><span>Media Center <i class="icon ion-arrow-right-b" aria-hidden="true"></i></span></a>
+						<a href="/comeback-series">Comeback Series <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>                                            <a href="/newsletter">Newsletter <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/press-release">Press Release <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+                         
+						<a href="/publications">Publications <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+						<a href="/videos">Videos <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</li>
+
+			<li class="item columns">
+				<a href="/contact" class="">Contact</a>
+			</li>
+		</ul>
+
+	</nav>
+ 
+</div>
+			</div>
+		</div>
+		<div class="hamburger-menu row hide-for-large-up">
+			<a id="logo" href="/" class="logo columns small-8"><img src="https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/img/logo@3x.png" alt=""></a>
+			<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+			<div class="mobile-menu" style="display:none;"><!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend//partials/_hamburger.php --><div class="menu row">
+
+	<a href="/events" ID="events-mobile" class="item columns small-10">Events</a>
+	<a href="/blog" ID="blog-mobile" class=" item columns small-10">Blog</a>
+		
+				<div class="has-dropdown item"><span class="dropdown-click">About Us<i class="icon ion-arrow-right-b" aria-hidden="true"></i></span>
+					<div class="mobile-dropdown small-10">
+						<div class="item"><a href="https://woodsoncenter.org/about-us/" ><span>About Us </span></a></div>
+													<div class="item"><a href="https://woodsoncenter.org/about-us/history/">History</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/about-us/our-team/">Our Team</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/about-us/our-board-of-directors/">Our Board of Directors</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/about-us/faq/">FAQ</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/about-us/careers/">Careers</a></div>
+											</div>
+				</div>
+			
+				<div class="has-dropdown item"><span class="dropdown-click">How We Help<i class="icon ion-arrow-right-b" aria-hidden="true"></i></span>
+					<div class="mobile-dropdown small-10">
+						<div class="item"><a href="https://woodsoncenter.org/how-we-help/" ><span>How We Help </span></a></div>
+													<div class="item"><a href="https://woodsoncenter.org/how-we-help/who-we-help/">Who We Help</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/how-we-help/programs/">Programs</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/our-impact/">Our Proven Impact</a></div>
+											</div>
+				</div>
+			
+				<div class="has-dropdown item"><span class="dropdown-click">Get Involved<i class="icon ion-arrow-right-b" aria-hidden="true"></i></span>
+					<div class="mobile-dropdown small-10">
+						<div class="item"><a href="https://woodsoncenter.org/get-involved/" ><span>Get Involved </span></a></div>
+													<div class="item"><a href="https://woodsoncenter.org/get-involved/members/">Members</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/get-involved/donors/">Donors</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/get-involved/partners/">Partners</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/get-involved/volunteers/">Volunteers</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/get-involved/share-your-story/">Share Your Story</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/join-email-list/">Join Our Email List</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/donate/">Donate</a></div>
+											</div>
+				</div>
+			
+				<div class="has-dropdown item"><span class="dropdown-click">Media Center<i class="icon ion-arrow-right-b" aria-hidden="true"></i></span>
+					<div class="mobile-dropdown small-10">
+						<div class="item"><a href="https://woodsoncenter.org/media-center/" ><span>Media Center </span></a></div>
+													<div class="item"><a href="https://woodsoncenter.org/media-center/comeback-series/">Comeback Series</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/media-center/press-releases/">Press Releases</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/media-center/blog/">Blog</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/media-center/publications/">Publications</a></div>
+													<div class="item"><a href="https://woodsoncenter.org/videos/">Videos</a></div>
+											</div>
+				</div>
+					<div class="item">
+				<a href="https://woodsoncenter.org/contact/">
+					<span id="contact">
+						Contact					</span>
+				</a>
+			</div>
+	</div></div>
+		</div>
+
+		<div class="text-left columns small-12 medium-4">
+			<h1>Welcome</h1>
+			<div class="hero_content">
+				Transforming lives, schools, and troubled neighborhoods from the inside out by involving those suffering the problem, empowering local leaders to identify capacities of residents and help them to achieve their potential.			</div>
+
+			<div class="learn-more hide-for-small"><span class="text">learn more</span></div>
+		</div>
+
+		<div class="columns small-12 medium-8 featured_image_container">
+			<div class="featured_image"><img width="500" height="319" src="https://woodsoncenter.org/wp-content/uploads/2020/03/1776-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://woodsoncenter.org/wp-content/uploads/2020/03/1776-2.png 500w, https://woodsoncenter.org/wp-content/uploads/2020/03/1776-2-300x191.png 300w" sizes="(max-width: 500px) 100vw, 500px" /><div class="inset-border"></div></div>
+		</div>
+	</div>
+</div>
+ 
+ <!-- this is used as a buffer/gutter to ensure the header image never gets cut off or moved -->
+<div class="buffer"></div><!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend/module-text-block.php --><!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend/partials/_centered-text-block.php --><div class="center-text-module" style="background-image: url(https://woodsoncenter.org/wp-content/uploads/2016/09/Quote4.png);
+				 background-position: left bottom;
+				  background-size: contain;
+				  background-repeat: no-repeat;
+				   margin-top: -10rem;">
+	<div class="row content-row" >
+					<div class="content columns medium-10 small-centered quote">
+				<p>
+					<span class="q-beg quotations"><img src="https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/img/LeftQuotes.png" alt=""></span>					<span class="q-end quotations"><img src="https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/img/RightQuotes.png" alt=""></span>					<p>The principles of the market economy should be applied to the solution of societal problems.</p>
+				</p>
+			</div>
+							<a href="https://woodsoncenter.org/about-us/" class="button">About Us <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+				</div>
+</div><!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend/module-case-study.php --><div class="case-study-module">
+	<div class="content-row row">
+		<div class="banner columns medium-4 medium-centered"><span class="text"><hr>impact<hr></span> </div>
+		<div class="title columns medium-4 small-centered small-12 medium-offset-4">Our Proven Impact</div>
+		<div class="content columns medium-10 small-centered">
+			VFZs improve student behavior and performance at high-risk middle and high schools in Milwaukee, Wisconsin as evidenced by Baylor University's 2015 case study.		</div>
+
+		<div class="study-container row">
+							<div class="columns box medium-4 small-10 medium-offset-1 main-box">
+					<div class="case-title">Violence-Free Zone Results</div>
+					<div class="subtitle">A Proven Model for Stopping Violence in the Schools & Creating Peace in the Community</div>
+					<div class="info"> | </div>
+					<div class="link"><a href="https://woodsoncenter.org/2016/09/29/reducing-youth-violence-the-violence-free-zone/">View <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+				</div>
+
+									<div class="medium-2 columns small-10 box end">
+						<div class="percent-type">
+							<span class="percentage">9.3%</span>
+							<span class="type">Increase</span>
+						</div>
+						<div class="stat-info">in GPA per VFZ student</div>
+					</div>
+									<div class="medium-2 columns small-10 box end">
+						<div class="percent-type">
+							<span class="percentage">8%</span>
+							<span class="type">Higher</span>
+						</div>
+						<div class="stat-info">rate of graduation from high school than non-VFZ students</div>
+					</div>
+									<div class="medium-2 columns small-10 box end">
+						<div class="percent-type">
+							<span class="percentage">23%</span>
+							<span class="type">Reduction</span>
+						</div>
+						<div class="stat-info">in truancy incidents per VFZ students per month</div>
+					</div>
+								
+					</div>
+			</div>
+</div><!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend/module-text-block.php --><!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend/partials/_centered-text-block.php --><div class="center-text-module" style="background-image: url(https://woodsoncenter.org/wp-content/uploads/2016/09/Quote2-1.png);
+				 background-position: left bottom;
+				  background-size: contain;
+				  background-repeat: no-repeat;
+				   margin-top: -10rem;">
+	<div class="row content-row" >
+					<div class="content columns medium-10 small-centered quote">
+				<p>
+					<span class="q-beg quotations"><img src="https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/img/LeftQuotes.png" alt=""></span>					<span class="q-end quotations"><img src="https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/img/RightQuotes.png" alt=""></span>					<p>Those suffering the problem must be involved in the creation and implementation of the solution.</p>
+				</p>
+			</div>
+				</div>
+</div><!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend/module-get-involved.php --><div class="get-involved-module" style="background-image: url('https://woodsoncenter.org/wp-content/uploads/2016/09/GetInvolved-1.png');">
+	<div class="content-row row">
+		
+		<div class="left-text columns small-12 medium-5 medium-offset-1">
+			<div class="banner"><span>Contribute <hr></span></div>
+			<h3 class="heading">Get Involved</h3>
+
+			<div class="module-content">
+				<p><p>The Woodson Center operates throughout the nation to help community and faith-based organizations with training, technical assistance, and linkages to sources of support. The Center chronicles and interprets their experiences to make recommendations for public policy and works to remove barriers that hamper their efforts to solve societal problems. </p>
+</p>
+			</div>
+
+							<a href="https://woodsoncenter.org/get-involved/" class="button">Get Involved <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+
+		<div class="box-container columns small-12 medium-4 end medium-offset-1">
+			<ul class="row small-block-grid-2">
+									
+					<li><a href="https://woodsoncenter.org/donation-page/"><div class="box">
+						<div class="inset-border"></div>
+						<p>Make A</p>
+						<h3>DONATION</h3>
+					</div></a></li>
+					
+									
+					<li><a href="https://woodsoncenter.org/get-involved/members/"><div class="box">
+						<div class="inset-border"></div>
+						<p>Become A</p>
+						<h3>MEMBER</h3>
+					</div></a></li>
+					
+									
+					<li><a href="https://woodsoncenter.org/get-involved/volunteers/"><div class="box">
+						<div class="inset-border"></div>
+						<p>Become A</p>
+						<h3>VOLUNTEER</h3>
+					</div></a></li>
+					
+									
+					<li><a href="https://woodsoncenter.org/get-involved/partners/"><div class="box">
+						<div class="inset-border"></div>
+						<p>Become A</p>
+						<h3>PARTNER</h3>
+					</div></a></li>
+					
+				
+			<!-- 	<li><a href="/member"><div class="box">
+					<div class="inset-border"></div>
+					<p>BECOME A</p>
+					<h3>MEMBER</h3>
+				</div></a></li>
+
+				<li><a href="/volunteer"><div class="box">
+					<div class="inset-border"></div>
+					<p>BECOME A</p>
+					<h3>VOLUNTEER</h3>
+				</div></a></li>
+
+				<li><a href="/partner"><div class="box">
+					<div class="inset-border"></div>
+					<p>BECOME A</p>
+					<h3>PARTNER</h3>
+				</div></a></li> -->
+
+			</ul>
+		</div>
+	</div>
+</div><!-- /home2/cneonlin/public_html/woodsoncenter/wp-content/themes/CNE-theme/views/frontend/module-blog-news.php --><div class="blog-and-news-module">
+	<div class="content-row row">
+		<div class="title columns medium-4 small-centered small-12 medium-offset-4">Blog & News</div>
+		<div class="columns small-4 small-centered"><a class="link" href="/blog">View All <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a></div>
+
+		<div class="box_container row">
+			<div class="boxes columns medium-10 medium-centered">
+									<div class="box-item columns small-6 medium-3 end">
+						<div class="date">
+							<span class="category">blog</span>
+							September 13, 2018						</div>
+						<div class="item_title">Woodson Center Newsletter – September 13, 2018</div>
+						<div class="author">By Woodson Center</div>
+						<a href="http://woodsoncenter.org/?p=3374 " class="link">Read <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+									<div class="box-item columns small-6 medium-3 end">
+						<div class="date">
+							<span class="category">blog</span>
+							August 22, 2018						</div>
+						<div class="item_title">Paul Ryan Praises Hope for Prisoners Program</div>
+						<div class="author">By Woodson Center</div>
+						<a href="http://woodsoncenter.org/?p=3320 " class="link">Read <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+									<div class="box-item columns small-6 medium-3 end">
+						<div class="date">
+							<span class="category">blog</span>
+							July 17, 2018						</div>
+						<div class="item_title">We Can, and Must, End the Foster Care Trap</div>
+						<div class="author">By Bob Woodson</div>
+						<a href="http://woodsoncenter.org/?p=3322 " class="link">Read <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+									<div class="box-item columns small-6 medium-3 end">
+						<div class="date">
+							<span class="category">blog</span>
+							August 12, 2018						</div>
+						<div class="item_title">A Year After Charlottesville, Extremists on All Sides Endanger Our Future</div>
+						<div class="author">By Bob Woodson</div>
+						<a href="http://woodsoncenter.org/?p=3325 " class="link">Read <i class="icon ion-arrow-right-b" aria-hidden="true"></i></a>
+					</div>
+							</div>
+		</div>
+	</div>
+</div><footer class="">
+	<div class="info-row-background">
+		<div class="info-row row">
+			<div class="columns hide-for-small medium-2"><a href="/"><img src="https://woodsoncenter.org/wp-content/themes/CNE-theme/assets/img/logo@3x.png" alt=""></a></div>
+			<div class="columns small-12 medium-3"><span>PHONE</span> (202) 518-6500</div>
+			<div class="columns small-12 medium-3"><span>FAX</span> (202) 588-0314</div>
+			<div class="columns small-12 medium-4 end"><span>EMAIL</span> info@woodsoncenter.org</div>
+		</div>
+	</div>
+
+	<div class="content-row row">
+		<div class="row link-section">
+								<div class="columns medium-2 hide-for-small"><span class="column-title"><a href="https://woodsoncenter.org/about-us/">About Us</a></span>
+						<div class="sub-categories">
+															<a href="https://woodsoncenter.org/about-us/">About Us</a>
+															<a href="https://woodsoncenter.org/about-us/history/">History</a>
+															<a href="https://woodsoncenter.org/about-us/our-team/robert-l-woodson-sr/">Robert L. Woodson, Sr.</a>
+															<a href="https://woodsoncenter.org/about-us/our-team/">Our Team</a>
+															<a href="https://woodsoncenter.org/about-us/our-board-of-directors/">Our Board of Directors</a>
+															<a href="https://woodsoncenter.org/about-us/careers/">Careers</a>
+															<a href="https://woodsoncenter.org/about-us/faq/">FAQ</a>
+													</div>
+					</div>
+								<div class="columns medium-2 hide-for-small"><span class="column-title"><a href="https://woodsoncenter.org/how-we-help/">How We Help</a></span>
+						<div class="sub-categories">
+															<a href="https://woodsoncenter.org/how-we-help/">How We Help</a>
+															<a href="https://woodsoncenter.org/how-we-help/who-we-help/">Who We Help</a>
+															<a href="https://woodsoncenter.org/how-we-help/programs/">Programs</a>
+															<a href="https://woodsoncenter.org/our-impact/">Our Proven Impact</a>
+													</div>
+					</div>
+								<div class="columns medium-2 hide-for-small"><span class="column-title"><a href="https://woodsoncenter.org/get-involved/">Get Involved</a></span>
+						<div class="sub-categories">
+															<a href="https://woodsoncenter.org/get-involved/">Get Involved</a>
+															<a href="https://woodsoncenter.org/get-involved/members/">Members</a>
+															<a href="https://woodsoncenter.org/get-involved/donors/">Donors</a>
+															<a href="https://woodsoncenter.org/get-involved/partners/">Partners</a>
+															<a href="https://woodsoncenter.org/get-involved/volunteers/">Volunteers</a>
+															<a href="https://woodsoncenter.org/get-involved/share-your-story/">Share Your Story</a>
+													</div>
+					</div>
+								<div class="columns medium-2 hide-for-small"><span class="column-title"><a href="https://woodsoncenter.org/media-center/">Media Center</a></span>
+						<div class="sub-categories">
+															<a href="https://woodsoncenter.org/media-center/">Media Center</a>
+															<a href="https://woodsoncenter.org/media-center/comeback-series/">Comeback Series</a>
+															<a href="https://woodsoncenter.org/media-center/press-releases/">Press Releases</a>
+															<a href="https://woodsoncenter.org/media-center/blog/">Blog</a>
+															<a href="https://woodsoncenter.org/media-center/publications/">Publications</a>
+															<a href="https://woodsoncenter.org/videos/">Videos</a>
+													</div>
+					</div>
+			
+
+			<div class="columns medium-4 small-12">
+				<div class="row">
+					<div class="columns medium-6 hide-for-small">
+						<div><span class="column-title"><a href="https://woodsoncenter.org/blog/">Blog & News</a></span></div>
+						<div><span class="column-title"><a href="https://woodsoncenter.org/events/">Events</a></span></div>
+					</div>
+					<div class="columns medium-6 hide-for-small">
+						<a class="button" href="https://woodsoncenter.org/contact/">Contact <span class="icon ion-arrow-right-b"></span></a>
+						<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LPCYVXF442VKC&source=url" class="button">Donate <span class="icon ion-arrow-right-b"></span></a>
+						<!-- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LPCYVXF442VKC&source=url" class="button"> <span class="icon ion-arrow-right-b"></span></a> -->
+					</div>
+				</div>
+
+				<div class="row social_icons">
+					<a href="https://twitter.com/woodsoncenter" class="columns small-2"><div class="circle"><span class="fa fa-twitter"></span></div></a>
+					<a href="https://www.youtube.com/channel/UCOYHupe99uilGCQl5E7abAw" class="columns small-2"><div class="circle"><span class="fa fa-youtube-play"></span></div></a>
+					<a href="https://www.facebook.com/woodsoncenter" class="columns small-2"><div class="circle"><span class="fa fa-facebook"></span></div></a>
+					<a href="https://www.instagram.com/woodsoncenter/?hl=en" class="columns small-2"><div class="circle"><span class="fa fa-instagram"></span></div></a>
+					<a href="https://www.linkedin.com/company/cne_3?trk=top_nav_home" class="columns small-2 end"><div class="circle"><span class="fa fa-linkedin"></span></div></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row legal hide-for-small">
+			<a href="https://woodsoncenter.org/get-involved/donors/donor-privacy-policy/">Privacy Policy</a>
+			<span class="bullet"></span>
+			<a href="">Disclaimer</a>
+			<span class="bullet"></span>
+			<span>&copy; 2020 The Woodson Center. All Rights Reserved</span>
+		</div>
+	</div>
+</footer>
+
+		<!-- Start of HubSpot Embed Code -->
+		<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2186588.js"></script>
+		<!-- End of HubSpot Embed Code -->
+		<script>
+			$( document ).ready(function() {
+				slug = $('#slug').data('slug');
+				$('#'+slug).addClass('active');
+			});
+		</script>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1112461722105814";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/woodsoncenter.org\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://woodsoncenter.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
+<script type='text/javascript' src='https://woodsoncenter.org/wp/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+
+
+<script>
+  function fbShare(url, title, descr, image, winWidth, winHeight) {
+    var winTop = (screen.height / 2) - (winHeight / 2);
+    var winLeft = (screen.width / 2) - (winWidth / 2);
+    window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+  }
+
+
+  var $ = jQuery;
+  jQuery(document).ready(function($){
+    //your stuff
+
+    //jQuery(document).ready(function($){
+
+    //
+
+
+    $( "body" ).on( "click", ".external-1776", function(event) {
+
+      // console.log("saf");
+      // var a = new RegExp('/' + window.location.host + '/');
+
+      // event.preventDefault();
+      // event.stopPropagation();
+
+
+      // window.open("https://1776unites.com/", '_blank');
+      //
+
+
+      // if(!a.test(this.href)) {
+      //   $(this).click(function(event) {
+      //     event.preventDefault();
+      //     event.stopPropagation();
+      //     window.open("https://1776unites.com/", '_blank');
+      //   });
+      // }
+
+      //event.preventDefault();
+
+    });
+
+
+
+  });
+
+
+
+
+</script>
+
+
+	</body>
+</html>
+
