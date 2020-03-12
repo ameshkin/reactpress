@@ -412,7 +412,7 @@ var data = {"name":"Name is required","email":"Email is required","comment":"Com
                       <h3>COMING SOON</h3>
                       <h5>SPACE ODYSSEY</h5>
                       <div class="spaceship">
-                        <img src="/wp-content/themes/unicord/images/spaceships/2.png" alt="Space Odyssey Coming Soon" />                      </div>
+                        <img src="/wp-content/themes/unicord/images/spaceships/4.png" alt="Space Odyssey Coming Soon" />                      </div>
                   </div>
                                     <span>© 2019 Odyssey Creative Design - All rights reserved.</span>
                               </div>

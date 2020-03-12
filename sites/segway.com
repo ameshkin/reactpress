@@ -70,8 +70,8 @@ img.emoji {
 </style>
 <link rel='stylesheet' id='wp-spaios-public-css-css'  href='https://static4.segway.com/wp-content/plugins/sliderspack-pro/assets/css/wp-spaios-public.css?ver=1.0.2' type='text/css' media='all' />
 <link rel='stylesheet' id='widget-builder-css'  href='https://static4.segway.com/wp-content/plugins/ultimate-widget-builder-pro-vc/assets/css/home-widget-builder.css?ver=5.2.5' type='text/css' media='all' />
-<link rel='stylesheet' id='video_popup_close_icon-css'  href='https://static4.segway.com/wp-content/plugins/video-popup/css/vp-close-icon/close-button-icon.css?ver=1583953966' type='text/css' media='all' />
-<link rel='stylesheet' id='oba_youtubepopup_css-css'  href='https://static4.segway.com/wp-content/plugins/video-popup/css/YouTubePopUp.css?ver=1583953966' type='text/css' media='all' />
+<link rel='stylesheet' id='video_popup_close_icon-css'  href='https://static4.segway.com/wp-content/plugins/video-popup/css/vp-close-icon/close-button-icon.css?ver=1583980406' type='text/css' media='all' />
+<link rel='stylesheet' id='oba_youtubepopup_css-css'  href='https://static4.segway.com/wp-content/plugins/video-popup/css/YouTubePopUp.css?ver=1583980406' type='text/css' media='all' />
 <link rel='stylesheet' id='wpsl-styles-css'  href='https://static4.segway.com/wp-content/plugins/wp-store-locator/css/styles.min.css?ver=2.2.231' type='text/css' media='all' />
 <link rel='stylesheet' id='megamenu-css'  href='https://static4.segway.com/wp-content/uploads/maxmegamenu/style.css?ver=988e06' type='text/css' media='all' />
 <link rel='stylesheet' id='dashicons-css'  href='https://static4.segway.com/wp-includes/css/dashicons.min.css?ver=5.2.5' type='text/css' media='all' />
@@ -153,8 +153,8 @@ figure.effect-jazz figcaption::after{
 <script type='text/javascript' src='https://static4.segway.com/wp-content/plugins/mega-addons-for-visual-composer/js/script.js?ver=5.2.5'></script>
 <script type='text/javascript' src='https://static4.segway.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8.3' defer='defer'></script>
 <script type='text/javascript' src='https://static4.segway.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8.3' defer='defer'></script>
-<script type='text/javascript' src='https://static4.segway.com/wp-content/plugins/video-popup/js/YouTubePopUp.jquery.js?ver=1583953966'></script>
-<script type='text/javascript' src='https://static4.segway.com/wp-content/plugins/video-popup/js/YouTubePopUp.js?ver=1583953966'></script>
+<script type='text/javascript' src='https://static4.segway.com/wp-content/plugins/video-popup/js/YouTubePopUp.jquery.js?ver=1583980406'></script>
+<script type='text/javascript' src='https://static4.segway.com/wp-content/plugins/video-popup/js/YouTubePopUp.js?ver=1583980406'></script>
 <script type='text/javascript'>
 var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
 </script>
@@ -1813,7 +1813,7 @@ var revapi1,
 					}
 				  </script>
 				</div><!-- END REVOLUTION SLIDER --></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section home-mid-banner qodef-content-aligment-left qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="mid-b1" class="vc_row wpb_row vc_inner vc_row-fluid qodef-section qodef-content-aligment-left" style=""><div class="qodef-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		<!-- HTML DESIGN HERE -->
-		<div class="grid vc-interactive-banner " id="vc-interactive-banner-248">
+		<div class="grid vc-interactive-banner " id="vc-interactive-banner-399">
 			<figure class="effect-jazz" style="background: ; width: 100%;">
 				<img src="https://static4.segway.com/wp-content/uploads/2019/12/h-banner-1n.jpg" alt="" style="height: px; width: 100%;" />
 				<figcaption>
@@ -1831,20 +1831,20 @@ var revapi1,
 		</div>
 		<style>
 			@media only screen and (max-width: 480px) {
-				#vc-interactive-banner-248 h2 {
+				#vc-interactive-banner-399 h2 {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-248 p {
+				#vc-interactive-banner-399 p {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-248 img {
+				#vc-interactive-banner-399 img {
 					height: px !important;
 				}
 			}
 		</style>
         <!-- HTML END DESIGN HERE -->
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		<!-- HTML DESIGN HERE -->
-		<div class="grid vc-interactive-banner " id="vc-interactive-banner-51">
+		<div class="grid vc-interactive-banner " id="vc-interactive-banner-272">
 			<figure class="effect-jazz" style="background: ; width: 100%;">
 				<img src="https://static4.segway.com/wp-content/uploads/2019/12/h-showcase.jpg" alt="" style="height: px; width: 100%;" />
 				<figcaption>
@@ -1862,20 +1862,20 @@ var revapi1,
 		</div>
 		<style>
 			@media only screen and (max-width: 480px) {
-				#vc-interactive-banner-51 h2 {
+				#vc-interactive-banner-272 h2 {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-51 p {
+				#vc-interactive-banner-272 p {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-51 img {
+				#vc-interactive-banner-272 img {
 					height: px !important;
 				}
 			}
 		</style>
         <!-- HTML END DESIGN HERE -->
 				<!-- HTML DESIGN HERE -->
-		<div class="grid vc-interactive-banner " id="vc-interactive-banner-466">
+		<div class="grid vc-interactive-banner " id="vc-interactive-banner-386">
 			<figure class="effect-jazz" style="background: ; width: 100%;">
 				<img src="https://static4.segway.com/wp-content/uploads/2019/12/h-pt-banner.jpg" alt="" style="height: px; width: 100%;" />
 				<figcaption>
@@ -1893,20 +1893,20 @@ var revapi1,
 		</div>
 		<style>
 			@media only screen and (max-width: 480px) {
-				#vc-interactive-banner-466 h2 {
+				#vc-interactive-banner-386 h2 {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-466 p {
+				#vc-interactive-banner-386 p {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-466 img {
+				#vc-interactive-banner-386 img {
 					height: px !important;
 				}
 			}
 		</style>
         <!-- HTML END DESIGN HERE -->
 		</div></div></div></div></div><div id="mid-b2" class="vc_row wpb_row vc_inner vc_row-fluid qodef-section qodef-content-aligment-left" style=""><div class="qodef-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		<!-- HTML DESIGN HERE -->
-		<div class="grid vc-interactive-banner " id="vc-interactive-banner-265">
+		<div class="grid vc-interactive-banner " id="vc-interactive-banner-161">
 			<figure class="effect-jazz" style="background: ; width: 100%;">
 				<img src="https://static4.segway.com/wp-content/uploads/2019/12/h-loomo-e.jpg" alt="" style="height: px; width: 100%;" />
 				<figcaption>
@@ -1924,20 +1924,20 @@ var revapi1,
 		</div>
 		<style>
 			@media only screen and (max-width: 480px) {
-				#vc-interactive-banner-265 h2 {
+				#vc-interactive-banner-161 h2 {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-265 p {
+				#vc-interactive-banner-161 p {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-265 img {
+				#vc-interactive-banner-161 img {
 					height: px !important;
 				}
 			}
 		</style>
         <!-- HTML END DESIGN HERE -->
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		<!-- HTML DESIGN HERE -->
-		<div class="grid vc-interactive-banner " id="vc-interactive-banner-368">
+		<div class="grid vc-interactive-banner " id="vc-interactive-banner-381">
 			<figure class="effect-jazz" style="background: ; width: 100%;">
 				<img src="https://static4.segway.com/wp-content/uploads/2020/01/h-events-trophy.jpg" alt="" style="height: px; width: 100%;" />
 				<figcaption>
@@ -1955,13 +1955,13 @@ var revapi1,
 		</div>
 		<style>
 			@media only screen and (max-width: 480px) {
-				#vc-interactive-banner-368 h2 {
+				#vc-interactive-banner-381 h2 {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-368 p {
+				#vc-interactive-banner-381 p {
 					font-size: px !important;
 				}
-				#vc-interactive-banner-368 img {
+				#vc-interactive-banner-381 img {
 					height: px !important;
 				}
 			}
@@ -2329,7 +2329,7 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using redis 
 Content Delivery Network via Amazon Web Services: CloudFront: static4.segway.com
-Database Caching 38/89 queries in 0.064 seconds using memcache
+Database Caching 40/89 queries in 0.063 seconds using memcache
 
-Served from: www.segway.com @ 2020-03-11 15:12:47 by W3 Total Cache
+Served from: www.segway.com @ 2020-03-11 22:33:27 by W3 Total Cache
 -->

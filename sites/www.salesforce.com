@@ -641,7 +641,7 @@ TRY FOR FREE
 </a>
 </li>
 <li class="nav-item">
-<a href="https://trailhead.salesforce.com/credentials" target="_blank">
+<a href="https://trailhead.salesforce.com/credentials/" target="_blank">
 <span>Certification </span>
 <span class="icon-sfdc-icon-offsite" aria-label="Open a new window">
 </span>
@@ -748,7 +748,7 @@ TRY FOR FREE
 </a>
 </li>
 <li class="nav-item">
-<a href="https://www.salesforce.com/dreamforce" target="_blank">
+<a href="https://www.salesforce.com/dreamforce/" target="_blank">
 <span>Dreamforce </span>
 <span class="icon-sfdc-icon-offsite" aria-label="Open a new window">
 </span>
@@ -798,17 +798,17 @@ TRY FOR FREE
 <div class="menu-section">
 <ul class="featured-content">
 <li>
-<a href="https://www.salesforce.com/connections" class="title">
+<a href="https://www.salesforce.com/connections/" class="title">
 <span>Connections 2020</span>
 </a>
 </li>
 <li>
-<a href="https://www.salesforce.com/connections">
+<a href="https://www.salesforce.com/connections/">
 <img src="//c1.sfdcstatic.com/content/dam/web/en_us/www/images/nav/cnx20-sfdc-events-nav-300x169.png" class="lazy">
 </a>
 </li>
 <li>
-<a href="https://www.salesforce.com/connections" class="content">
+<a href="https://www.salesforce.com/connections/" class="content">
 <span>Marketing, commerce, and service: Let’s connect.</span>
 </a>
 </li>
@@ -1790,7 +1790,7 @@ Unify marketing, sales, service, commerce, and IT teams with our entire app suit
 <div class="thumbnail-content ">
 <a class="hidden-lg hidden-md hidden-sm hidden-xs"></a>
 <div class="text-center product-icon-card">
-<svg class="product-icon salesforce-icon cloud-icon-all" style="background:url(&#39;/content/dam/web/global/icons/product/product-smb-day.svg?version=1583954387999&#39;) no-repeat;" aria-hidden="true" alt=""></svg>
+<svg class="product-icon salesforce-icon cloud-icon-all" style="background:url(&#39;/content/dam/web/global/icons/product/product-smb-day.svg?version=1583982197260&#39;) no-repeat;" aria-hidden="true" alt=""></svg>
 </div>
 <div class="caption">
 <div class="headingComponent parbase section">
@@ -3375,7 +3375,7 @@ How likely are you to recommend our website to a colleague?
 <span class="error-msg">Please Complete Captcha</span>
 </div>
 <div class="hidden">
-<input type="hidden" name="formResourcePath" value="{3e16507af40b28bb37c4435a76af798bfaa230bf211eaf99e85eb39f7d68aebdbf3a2dca0469d783c20f6703e4934c17ebb013aec066b570be4b96e547c8ee752fd04fa483b781c4061a50a55e62517c29bab3adeb1d3dad8933d8be4e807ffac72f100d64e9785068e5a4460b5bf4a4dd9ca6358fa9333c7b022a12a4d929dde5aab3c8b42d5caee4c1d4f2d1668f3e5fdd988cc002363fdbcaa62af79f3cc9a90616797e0c4c066a65d4fa54565fb3a77a11f5d7ef4dcf010de5bc46c42406}"/>
+<input type="hidden" name="formResourcePath" value="{abeefd1677ccd4ff4eb6d3097eebabdd8853ef37c3d00335253b7e293683bb311c27870616575e63a3fc1c2e50a80eb3a4180318e6f2ed0ff9114e7bc04593fc9a2f4a3e1a0aa016bd1da129cbd3b35746741821c91d79e0df38d3f815ebabba185a29517756e423f34e3a07710c180103969ef3297ee60f4172f8a1c26196b8973951eb0bb00d127abed467616c4cf6a3dcfb1cd0c0e5c069d3db0c88a916f9d0dfe3f573b440771347daa877e3017e8db74382dbcb7036a5ff48800155bc82}"/>
 </div>
 <div class="paginatedFormControls parbase"><div class="paginated-form-controls">
 <div class="btn-container">
