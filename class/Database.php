@@ -5,7 +5,8 @@
  * Simple class for database operations
  * Class Database
  */
-class Database{
+class Database
+{
 
 
   /**
@@ -94,9 +95,11 @@ class Database{
 
   }
 
+
   /**
    * Return one site
    * @param $table
+   * @param $where
    * @return false|string
    */
   public function select($table, $where)

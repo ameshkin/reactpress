@@ -8,7 +8,8 @@ require 'Utility.php';
  * Api functions
  * Class Api
  */
-class Api {
+class Api
+{
 
   public $table = 'sites';
 
