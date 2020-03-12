@@ -27,15 +27,11 @@ class Api {
         // if api method does not exist, then exist
         if(!method_exists($this, $action))
         {
-          Utility::output_log("method does not exist - ".$action, 1);
-
-        }
-
-        // if api method does not exist, then exist
-        if(!method_exists($this, $action))
-        {
-          Utility::output_log("method does not exist - ".$action, 1);
-
+          Utility::output_json(
+            [
+              'error'=>1,
+              'message'=>"method does not exist - ".$action,
+            ]);
         }
 
         switch ($action) {
@@ -63,12 +59,14 @@ class Api {
 
         break;
       default:
-        //echo $_SERVER['REQUEST_METHOD'];
-        Utility::output_log("please use POST", 1);
+
+        Utility::output_json([
+          'error'=>1,
+          'message'=>'Please use POST instead of '.$_SERVER['REQUEST_METHOD']
+        ]);
 
         break;
     }
-
   }
 
 
@@ -104,6 +102,7 @@ class Api {
   {
 
     // first check to see if we have a valid url
+
     if (filter_var($site, FILTER_VALIDATE_URL))
     {
 
@@ -114,7 +113,11 @@ class Api {
       try {
         $res = $client->request('GET', $site);
       } catch (Exception $e) {
-        Utility::output_log("Request Exception Error for $site - ".$e->getMessage(), 1);
+        Utility::output_json([
+            'error'=>1,
+            'message'=>"Request Exception Error for $site - ".$e->getMessage(),
+          ]
+        );
       }
 
       // check status code for errors
@@ -132,10 +135,20 @@ class Api {
         $database->insert($table, $data);
 
       } else {
-        Utility::output_log("status code: ".$res->getStatusCode(), 1);
+        Utility::output_json([
+            'error'=>1,
+            'message'=>'Invalid status code',
+            'status_code'=>$res->getStatusCode()
+          ]
+        );
       }
     } else {
-      Utility::output_log("Not a valid URL: ".$site, 1);
+      Utility::output_json([
+          'error'=>1,
+          'message'=>'Not a valid URL',
+          'status_code'=>$site
+        ]
+      );
     }
   }
 

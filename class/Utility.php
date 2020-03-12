@@ -55,6 +55,18 @@ class Utility {
   }
 
   /**
+   * @param $message
+   * @param null $exit
+   */
+  public static function output_json($data)
+  {
+
+    echo json_encode($data);
+    exit;
+
+  }
+
+  /**
    * return return destination
    * @param $site
    * @return string
