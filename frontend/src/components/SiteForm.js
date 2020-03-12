@@ -32,7 +32,6 @@ class SiteForm extends React.Component {
     fetch("http://localhost:8888/api/?action=insert&site=" + this.state.value,
       {
         method: 'post',
-        //body: JSON.stringify(opts)
       })
       .then(res => res.json())
       .then(
@@ -111,40 +110,20 @@ class SiteForm extends React.Component {
 
           <div className={"sites-container"}>
             <ul className={"site-list"}>
-              {/*{(() => {*/}
-              {/*  console.log(this.state.error)*/}
-              {/*  if(!this.state.error)*/}
-              {/*  {*/}
-              {/*    {this.state.sites.map((site) => (*/}
-              {/*      <li key={site.id}>*/}
-              {/*        <span>{site.id}</span>*/}
-              {/*        <span>{site.url}</span>*/}
-              {/*        <span>*/}
-              {/*          <input className="btn-view" type="button" value="View" onClick={(e) => { this.handleView(site) }} />*/}
-              {/*        </span>*/}
-              {/*        <span className="icon">*/}
-              {/*         <input className="btn btn-delete" type="button" value="Delete" onClick={(e) =>  { this.handleDelete(site.id) }} />*/}
-              {/*        </span>*/}
-              {/*      </li>*/}
-              {/*    ))}*/}
-              {/*  } else {*/}
-              {/*    return (<div>error</div>)*/}
 
-              {/*  }*/}
-              {/*})()}*/}
-
-              {this.state.sites.map((site) => (
+              {!this.state.error ? this.state.sites.map((site) => (
                 <li key={site.id}>
                   <span>{site.id}</span>
                   <span>{site.url}</span>
                   <span>
-                    <input className="btn-view" type="button" value="View" onClick={(e) => { this.handleView(site) }} />
-                  </span>
+                        <input className="btn-view" type="button" value="View" onClick={(e) => { this.handleView(site) }} />
+                      </span>
                   <span className="icon">
-                   <input className="btn btn-delete" type="button" value="Delete" onClick={(e) =>  { this.handleDelete(site.id) }} />
-                  </span>
+                       <input className="btn btn-delete" type="button" value="Delete" onClick={(e) =>  { this.handleDelete(site.id) }} />
+                      </span>
                 </li>
-              ))}
+              )) :  (<div className="error-box">error</div>)
+              }
 
             </ul>
           </div>

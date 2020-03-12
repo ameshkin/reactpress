@@ -42,6 +42,7 @@ code {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  margin-top: 50px;
 }
 
 .btn-primary {
@@ -164,6 +165,21 @@ code {
     padding-left: 30px;
   }
 }
+
+
+.error-box {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  position: absolute;
+  top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  left: calc(50% - 150px);
+}
+
 
 @keyframes logo-spin {
   from {
