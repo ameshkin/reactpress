@@ -103,34 +103,40 @@ class Api {
   public function insert($table, $site )
   {
 
-    $client   = new GuzzleHttp\Client();
-    $database = new Database();
-
-    // get site's html content
-    try {
-      $res = $client->request('GET', $site);
-    } catch (Exception $e) {
-      Utility::output_log("Request Exception Error for $site - ".$e->getMessage(), 1);
-    }
-
-    // check status code for errors
-    if(Utility::check_status_code($res->getStatusCode()))
+    // first check to see if we have a valid url
+    if (filter_var($site, FILTER_VALIDATE_URL))
     {
 
-      $content =  $res->getBody();
+      $client   = new GuzzleHttp\Client();
+      $database = new Database();
 
-      $data = [
-        'url' => $site,
-        'content' => base64_encode($content) // encode to safely store in DB and decode later
-      ];
+      // get site's html content
+      try {
+        $res = $client->request('GET', $site);
+      } catch (Exception $e) {
+        Utility::output_log("Request Exception Error for $site - ".$e->getMessage(), 1);
+      }
 
-      $database->connect();
-      $database->insert($table, $data);
+      // check status code for errors
+      if(Utility::check_status_code($res->getStatusCode()))
+      {
 
+        $content =  $res->getBody();
+
+        $data = [
+          'url' => $site,
+          'content' => base64_encode($content) // encode to safely store in DB and decode later
+        ];
+
+        $database->connect();
+        $database->insert($table, $data);
+
+      } else {
+        Utility::output_log("status code: ".$res->getStatusCode(), 1);
+      }
     } else {
-      Utility::output_log("status code: ".$res->getStatusCode(), 1);
+      Utility::output_log("Not a valid URL: ".$site, 1);
     }
-
   }
 
 
