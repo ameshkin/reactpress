@@ -33,9 +33,33 @@ class Database{
     // errors handled by class
     $result = DB::insert($table, $data);
 
+
+    // let's return a list of updated items
     if($result)
     {
-      echo json_encode(['success'=>1]);
+
+      $sites = DB::query("SELECT * FROM $table");
+
+
+      $newsites = [];
+      foreach($sites as $site) {
+
+        // need to use mb_convert_encoding for malformed utf content
+        $newsites[] = ['id'=>$site['id'],'url'=>$site['url'], 'content'=>mb_convert_encoding(base64_decode($site['content']), 'UTF-8', 'UTF-8')];
+
+      }
+
+      Utility::output_json([
+          'result'=>$result,
+          'sites'=>$newsites,
+        ]
+      );
+    } else {
+      Utility::output_json([
+          'error'=>1,
+          'message'=>'Database error',
+        ]
+      );
     }
 
   }
@@ -113,14 +137,31 @@ class Database{
   /**
    * Delete an item from the DB
    * @param $table
-   * @param $site
+   * @param $id
    * @return mixed
    */
-  public function delete_one($table, $site)
+  public function delete_one($table, $id)
   {
 
-    return DB::query("DELETE FROM $table WHERE url = %s", $site);
-    //return DB::delete($table, $where);
+    $result = DB::query("DELETE FROM $table WHERE id = %s", $id);
 
+    // let's return a list of updated items
+    if($result)
+    {
+
+      $sites = DB::query("SELECT id,url FROM $table");
+
+      Utility::output_json([
+          'result'=>$result,
+          'sites'=>$sites,
+        ]
+      );
+    } else {
+      Utility::output_json([
+          'error' => 1,
+          'message' => 'Database error',
+        ]
+      );
+    }
   }
 }

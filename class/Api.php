@@ -47,7 +47,7 @@ class Api {
             break;
           case 'delete_one': // Delete one item
 
-            $this->$action($this->table, $args['site'] );
+            $this->$action($this->table, $args['id'] );
 
             break;
           case 'select_all':
@@ -96,7 +96,7 @@ class Api {
 
 
   /**
-   * Insert a site into the database
+   * Insert a site into the database and then show an updated list of sites
    */
   public function insert($table, $site )
   {
@@ -154,17 +154,17 @@ class Api {
 
 
   /**
-   * Delete one site
+   * Delete one site by id
    * @param $table
-   * @param $site
+   * @param $id
    * @return mixed
    */
-  public function delete_one($table, $site)
+  public function delete_one($table, $id)
   {
 
     $database = new Database();
     $database->connect();
-    echo $database->delete_one($table, $site);
+    echo $database->delete_one($table, $id);
 
   }
 }
