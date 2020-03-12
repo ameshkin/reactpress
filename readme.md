@@ -3,7 +3,7 @@
 
 # requirements 
 
-php 7.3
+php 7.3 with ext-json and mb_convert_encoding
 
 
 ## Guzzle 

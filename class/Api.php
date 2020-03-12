@@ -103,7 +103,7 @@ class Api
   {
 
     // first check to see if we have a valid url
-
+    $site = trim($site);
     if (filter_var($site, FILTER_VALIDATE_URL))
     {
 

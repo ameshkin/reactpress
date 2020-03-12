@@ -90,7 +90,10 @@ class Database
 
     if($newsites)
     {
-      return json_encode($newsites);
+      Utility::output_json([
+          'sites'=>$newsites,
+        ]
+      );
     }
 
   }
@@ -152,13 +155,31 @@ class Database
     if($result)
     {
 
-      $sites = DB::query("SELECT id,url FROM $table");
+      $sites = DB::query("SELECT * FROM $table");
 
-      Utility::output_json([
-          'result'=>$result,
-          'sites'=>$sites,
-        ]
-      );
+      $newsites = [];
+      foreach($sites as $site) {
+
+        // need to use mb_convert_encoding for malformed utf content
+        $newsites[] = [
+          'id'=>$site['id'],
+          'url'=>$site['url'],
+          'content'=>mb_convert_encoding(base64_decode($site['content']), 'UTF-8', 'UTF-8')
+        ];
+
+      }
+
+      if($newsites)
+      {
+        if($newsites)
+        {
+          Utility::output_json([
+              'sites'=>$newsites,
+            ]
+          );
+        }
+      }
+
     } else {
       Utility::output_json([
           'error' => 1,
