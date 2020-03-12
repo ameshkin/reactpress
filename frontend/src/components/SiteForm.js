@@ -44,7 +44,6 @@ class SiteForm extends React.Component {
             error: false
           });
 
-          console.log(result);
         },
         (error) => {
           this.setState({
